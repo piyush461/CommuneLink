@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-150px);
+  }
+  10%{
+    transform: translateX(0px);
+  }
+  40%{
+    transform: translateX(-150px);
+  }
+  100%{
+    transform: translateX(-150px);
+  }
+}
