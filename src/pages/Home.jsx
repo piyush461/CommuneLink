@@ -10,7 +10,7 @@ function Home() {
           <span className="text-blue-500">Faiths</span> &{" "}
           <span className="text-orange-500">Interest</span>
         </h1>
-        <div className="block md:hidden outline">
+        <div className="block md:hidden">
           <img src="assets\people.webp" alt="People Gatthering" />
         </div>
         <p className="text-xl max-md:text-[14px] min-md:w-[50vw]">
