@@ -92,7 +92,7 @@ const Events = () => {
   return (
     <div className="p-6 h-full">
       <div>
-        <h2 className="text-[2.4vw] font-semibold text-center my-4">
+        <h2 className="md:text-[2.4vw] text-3xl font-semibold text-center my-4">
           Upcoming Events
         </h2>
         <div className="flex justify-center gap-4 mb-6">

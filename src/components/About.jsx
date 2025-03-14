@@ -75,7 +75,7 @@ function About() {
             Commune<span className="text-blue-600">Link🔗</span>
           </span>{" "}
           is here to make the experience smooth and enjoyable.
-          <p className="text-center max-md:text-[12px] my-10 font-bold italic">
+          <p className="text-center max-md:text-[12px] mt-3 font-bold italic">
             🚀 Be a part of our community today and explore the power of
             <span className="text-blue-400"> connection</span>!
           </p>
