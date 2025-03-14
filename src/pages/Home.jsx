@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="p-[5vw] flex h-full items-center max-md:flex-col">
       <div className="min-md:flex-1/2 flex gap-6 flex-col">
-        <h1 className="text-3xl font-semibold max-md:my-8 ">
+        <h1 className="text-[2.4vw] font-semibold max-md:my-8 ">
           Connecting People Across <br />
           <span className="text-blue-500">Faiths</span> &{" "}
           <span className="text-orange-500">Interest</span>
