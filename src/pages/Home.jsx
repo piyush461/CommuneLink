@@ -11,7 +11,7 @@ function Home() {
           <span className="text-orange-500">Interest</span>
         </h1>
         <div className="block md:hidden outline">
-          <img src="src\assets\people.webp" alt="People Gatthering" />
+          <img src="assets\people.webp" alt="People Gatthering" />
         </div>
         <p className="text-xl max-md:text-[14px] min-md:w-[50vw]">
           Discover a space where diverse communities come together to share
@@ -30,7 +30,7 @@ function Home() {
         </Link>
       </div>
       <div className="min-md:flex-1/2 max-md:flex-1 hidden md:block ">
-        <img src="src\assets\people.webp" alt="People Gatthering" />
+        <img src="assets\people.webp" alt="People Gatthering" />
       </div>
     </div>
   );
