@@ -3,17 +3,17 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="p-[5vw] flex-1 flex max-md:flex-col">
-      <div className="min-md:flex-1/2 flex max-md:gap-6 gap-6 flex-col">
+    <div className="p-[5vw] flex h-full items-center max-md:flex-col">
+      <div className="min-md:flex-1/2 flex gap-6 flex-col">
         <h1 className="text-3xl font-semibold max-md:my-8 ">
           Connecting People Across <br />
           <span className="text-blue-500">Faiths</span> &{" "}
           <span className="text-orange-500">Interest</span>
         </h1>
         <div className="block md:hidden">
-          <img src="assets\people.webp" alt="People Gatthering" />
+          <img src="assets/people.webp" alt="People Gatthering" />
         </div>
-        <p className="text-xl max-md:text-[14px] min-md:w-[50vw]">
+        <p className="text-[1.5vw] max-md:text-[14px] min-md:w-[50vw]">
           Discover a space where diverse communities come together to share
           ideas, celebrate traditions, and build lasting relationships.
           <br />
@@ -30,7 +30,7 @@ function Home() {
         </Link>
       </div>
       <div className="min-md:flex-1/2 max-md:flex-1 hidden md:block ">
-        <img src="assets\people.webp" alt="People Gatthering" />
+        <img src="assets/people.webp" alt="People Gatthering" />
       </div>
     </div>
   );

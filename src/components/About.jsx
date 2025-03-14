@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="flex-1 p-10 max-md:p-4 flex flex-col gap-2 overflow-y-scroll">
+    <div className="p-10 max-md:p-4 flex flex-col gap-2">
       <center>
         <h1 className="text-4xl font-semibold text-blue-700">About Us</h1>
       </center>
